@@ -1,6 +1,14 @@
 <h1>Daily Updates</h1>
 <hr>
+<h2>7 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Put UI assets such as images, icons and themes to the planters dashboard app</li>
+  <li>build add planters colums in planters Android app to Add planters to their dashboard</li>
+  <li>created a class and obects to pass value such as name and icons to planters Android app bottom navigation bar</li>
+</ol>
 
+<hr>
 <h2>4 August, 2023</h2>
 <p>today's work</p>
 <ol>
