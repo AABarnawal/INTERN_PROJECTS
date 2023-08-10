@@ -1,4 +1,29 @@
 <h1>Daily Updates</h1>
+
+<hr>
+<h2>10 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>learn About the navigation of an appliction..how apps navigate from one page to another and share data and functionalities</li>
+  <li>again coded the planters app from scratch with implementing view model and navigation format  </li>
+  <li>Add Navigation functionalities to the app to go on the Chat page from BottomSheet</li>
+</ol>
+<hr>
+<h2>9 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>give funtion to more options and coded the bottom sheet scaffold layout</li>
+  <li>learn about the architecture and view model of an android application </li>
+  <li>build a counter app by implementin view model architecture</li>
+</ol>
+<hr>
+<h2>8 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Rectified Add planters menu in Android app</li>
+  <li>Build a bottom sheet for more options in the Planters Bottom Navigation bar </li>
+  <li>corrected the layout of the bottom bar , bottom sheet and main page</li>
+</ol>
 <hr>
 <h2>7 August, 2023</h2>
 <p>Today's Work</p>
