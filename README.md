@@ -1,6 +1,14 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>11 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Code a Chat page screen add recent chat and groups tabs and make search button which on click shows search bar and hide it</li>
+  <li>add floating button on the app to add new chat options from contacts and add Searching list so that it can search contacts from the search bar </li>
+  <li>code new chat page which will get to the new contacts </li>
+</ol>
+<hr>
 <h2>10 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
