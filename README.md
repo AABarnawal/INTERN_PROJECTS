@@ -4,7 +4,22 @@
 <h2>23 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
-  
+  <li>
+    Created qr Code generator app:
+    <ul>
+      <li>get the api link to generate qr : https://api.qrserver.com/v1/create-qr-code/?size=550x550&data=</li>
+      <li>
+        craeated a text box to insert a value link in api to generate the qr and async it with asynImage
+        async Image implementation("io.coil-kt:coil-compose:2.4.0")
+      </li>
+      <li>
+        created a navigation page to navigate though main Screen to scan or Create Screen
+      </li>
+    </ul>
+  </li>
+  <li>
+    learn About Camerax Liabrary
+  </li>
 </ol>
 <hr>
 <h2>22 August, 2023</h2>
