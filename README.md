@@ -79,48 +79,6 @@
     </li>
     <li>
       Preview camera in android view to get the view of camera
-      <span>
-           val context = LocalContext.current
-    val lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current
-    val cameraController: LifecycleCameraController = remember { LifecycleCameraController(context) }
-    Scaffold(
-        modifier = Modifier.fillMaxSize(),
-        floatingActionButton = {
-            Button(
-                onClick = {
-                    val mainExecutor: Executor = ContextCompat.getMainExecutor(context)
-                    cameraController.takePicture(mainExecutor, object : ImageCapture.OnImageCapturedCallback() {
-                        override fun onCaptureSuccess(image: ImageProxy) {
-                            // Process the captured image here
-                        }
-                    })
-                }){ Text(text = "Click")}
-        }
-    ) { innerPadding: PaddingValues ->
-        // Here we will place our content
-        AndroidView(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding),
-            factory = { context ->
-                // TODO: Create our View
-                PreviewView(context).apply {
-                    setBackgroundColor(Color.White.toArgb())
-                    layoutParams = LinearLayout.LayoutParams(100,200)
-                    scaleType = PreviewView.ScaleType.FILL_START
-                    implementationMode = PreviewView.ImplementationMode.COMPATIBLE
-                }.also { previewView ->
-                    previewView.controller = cameraController
-                    cameraController.bindToLifecycle(lifecycleOwner)
-                }
-            },
-            onRelease = {
-                cameraController.unbind()
-            }
-        )
-    }
-}
-      </span>
     </li>
 </ol>
 <hr>
