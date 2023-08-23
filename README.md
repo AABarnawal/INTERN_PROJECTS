@@ -46,8 +46,82 @@
     </ul>
   </li>
   <li>
-    learn About Camerax Liabrary
-  </li>
+    learn About Camerax Liabrary :
+     <ul>
+          <li>
+            implementation of camera Liabrary:
+            <ul>
+              <li>
+                 camera : implementation "androidx.camera:camera-camera2:1.2.3"
+              </li>
+              <li>
+                lifecycle : implementation "androidx.camera:camera-lifecycle:1.2.3"
+              </li>
+              <li>
+                Android view - implementation "androidx.camera:camera-view:1.2.3"
+              </li>
+              <li>
+                Camera extension for different actions :implementation "androidx.camera:camera-extensions:1.2.3"
+              </li>
+              <li>
+                Accompanist : implementation "com.google.accompanist:accompanist-permissions:0.31.2-alpha"
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </li>
+    <li>
+      give permissions to camera app in mannifest:
+      uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"
+      uses-permission android:name="android.permission.CAMERA"
+    </li>
+    <li>
+      Preview camera in android view to get the view of camera
+      <span>
+           val context = LocalContext.current
+    val lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current
+    val cameraController: LifecycleCameraController = remember { LifecycleCameraController(context) }
+    Scaffold(
+        modifier = Modifier.fillMaxSize(),
+        floatingActionButton = {
+            Button(
+                onClick = {
+                    val mainExecutor: Executor = ContextCompat.getMainExecutor(context)
+                    cameraController.takePicture(mainExecutor, object : ImageCapture.OnImageCapturedCallback() {
+                        override fun onCaptureSuccess(image: ImageProxy) {
+                            // Process the captured image here
+                        }
+                    })
+                }){ Text(text = "Click")}
+        }
+    ) { innerPadding: PaddingValues ->
+        // Here we will place our content
+        AndroidView(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding),
+            factory = { context ->
+                // TODO: Create our View
+                PreviewView(context).apply {
+                    setBackgroundColor(Color.White.toArgb())
+                    layoutParams = LinearLayout.LayoutParams(100,200)
+                    scaleType = PreviewView.ScaleType.FILL_START
+                    implementationMode = PreviewView.ImplementationMode.COMPATIBLE
+                }.also { previewView ->
+                    previewView.controller = cameraController
+                    cameraController.bindToLifecycle(lifecycleOwner)
+                }
+            },
+            onRelease = {
+                cameraController.unbind()
+            }
+        )
+    }
+}
+      </span>
+    </li>
 </ol>
 <hr>
 <h2>22 August, 2023</h2>
