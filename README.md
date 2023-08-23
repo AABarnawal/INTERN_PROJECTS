@@ -9,8 +9,36 @@
     <ul>
       <li>get the api link to generate qr : https://api.qrserver.com/v1/create-qr-code/?size=550x550&data=</li>
       <li>
-        craeated a text box to insert a value link in api to generate the qr and async it with asynImage
+        created a text box to insert a value link in api to generate the qr and async it with asynImage
         async Image implementation("io.coil-kt:coil-compose:2.4.0")
+      </li>
+      <li>
+        make All the qr Downloadable by getting permissions of read storage,write Storage &Download mananger in manifest xml
+        <ol>
+          <li><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" /></li>
+            <li><uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/></li>
+            <li><uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" /></li>
+        </ol>
+      </li>
+      <li>
+        Create a donloading function to Download qr from the link to a given coontext
+        <ul>
+          <li>
+            "fun downloading(imageLink:String, title:String, context: Context ){
+                val request = DownloadManager.Request(Uri.parse(imageLink))
+                request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or                           DownloadManager.Request.NETWORK_MOBILE)
+                request.setTitle("Download")
+                request.setDescription("Downloading Image")
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
+                request.setDestinationInExternalPublicDir(
+                    Environment.DIRECTORY_DOWNLOADS,
+                    "${System.currentTimeMillis()}")            
+                val manager = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+                manager.enqueue(request)
+            }"
+          </li>
+        </ul>
       </li>
       <li>
         created a navigation page to navigate though main Screen to scan or Create Screen
