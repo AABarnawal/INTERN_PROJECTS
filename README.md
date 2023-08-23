@@ -1,6 +1,55 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>23 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  
+</ol>
+<hr>
+<h2>22 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Succesfuly fetched data from api to view model to print on screen</li>
+  <li>Learn about roomDB to get and store information on local db</li>
+  <li>Created a small projct to insert and delete data from Local db</li>
+</ol>
+<hr>
+<h2>21 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>just tried to get api data to store in view model to print in screen</li>
+</ol>
+<hr>
+<h2>18 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Learn About a retrofit get to get the data from api</li>
+  <li>Created a project to get the data from api </li>
+</ol>
+<hr>
+<h2>17 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>Research Why Kotlin is better than flutter and react native</li>
+</ol>
+<hr>
+<h2>16 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>give basic changes to the chat app sush as color, images, text</li>
+  <li>learn about the Coroutines </li>
+  <li>Created a small project on Coroutine </li>
+</ol>
+<hr>
+<h2>14 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>created a new Chat option with chat and group tab</li>
+  <li>Coded a click to send message in chat window</li>
+  <li>Created a chat grop window</li>
+</ol>
+<hr>
 <h2>11 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
