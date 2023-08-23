@@ -22,7 +22,7 @@
         </ol>
       </li>
       <li>
-        Create a donloading function to Download qr from the link to a given coontext
+        Coded a downloading function to Download qr from the link to a given coontext
         <ul>
           <li>
             "fun downloading(imageLink:String, title:String, context: Context ){
