@@ -15,10 +15,10 @@
       <li>
         make All the qr Downloadable by getting permissions of read storage,write Storage &Download mananger in manifest xml
         <ol>
-          <li>"<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="28" />"</li>
-            <li>"<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>"</li>
-            <li>"<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />"</li>
+          <li>'uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" '</li>
+            <li>'uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"'</li>
+            <li>'uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" '</li>
         </ol>
       </li>
       <li>
