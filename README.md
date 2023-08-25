@@ -1,6 +1,13 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>25 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+<hr>
 <h2>24 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
