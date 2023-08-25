@@ -4,8 +4,23 @@
 <h2>25 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
-  <li></li>
-  <li></li>
+  <li>
+    Fido2 app
+    <ul>
+      <li>Freshly imposted the new fido2 App</li>
+      <li>implemented base api url of codelab : not worked</li>
+      <li>created a new api url from glitch.me : "https://glitch.com/edit/#!/rift-cheerful-thistle?path=.env%3A1%3A0"</li>
+      <li>new url woked but needed sha key, Created a sha key to implement in website : sha key created by signingReport</li>
+      <li>product uploaded to github</li>
+    </ul>
+  </li>
+  <li>
+    learn About permissions : "https://developer.android.com/training/permissions/requesting-special"
+    <ul>
+      <li>Requesting runtime permission and Special Permissions</li>
+      <li>managing Runtime Permissions</li>
+    </ul>
+  </li>
 </ol>
 <hr>
 <h2>24 August, 2023</h2>
