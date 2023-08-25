@@ -7,7 +7,7 @@
   <li>
     Fido2 app
     <ul>
-      <li>Freshly imposted the new fido2 App</li>
+      <li>Freshly build the new fido2 App</li>
       <li>implemented base api url of codelab : not worked</li>
       <li>created a new api url from glitch.me : "https://glitch.com/edit/#!/rift-cheerful-thistle?path=.env%3A1%3A0"</li>
       <li>new url woked but needed sha key, Created a sha key to implement in website : sha key created by signingReport</li>
