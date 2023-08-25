@@ -1,6 +1,42 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>24 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>
+    CameraX functionalities
+    <ul>
+      <li>CameraX is a Jetpack library by Google that adds camera functionality to Android apps consistently across devices and versions.</li>
+      <li>It provides features like camera preview, photo capture, video recording, tap-to-focus, and pinch-to-zoom with a few lines of code.</li>
+      <li>It provides features like camera preview, photo capture, video recording, tap-to-focus, and pinch-to-zoom with a few lines of code.</li>
+      <li>The preview use case streams images from the camera sensor to the UI, important for framing shots or video calls.</li>
+      <li>Image capture captures high-quality photos, video capture handles recording and mixing audio and video, and image analysis allows for image processing and machine learning inference, including ML Kit integration.</li>
+    </ul>
+  </li>
+  <li>
+    Fido2 application
+    <ul>
+      <li>
+        build the Application
+        <ul>
+          <li>Application needed updaetes to the recent versions of kotlin</li>
+          <li>when i updated it buld dupplicated Apllication and have kapt3 error</li>
+        </ul>
+      </li>
+      <li>
+        re-build the Application
+        <ul>
+          <li>freshly import the Apllication</li>
+          <li>only updated kotlin version not full App</li>
+          <li>it ran but Showing error : "The incoming request cannot be validated"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  
+</ol>
+<hr>
 <h2>23 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
