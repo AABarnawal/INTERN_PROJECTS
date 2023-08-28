@@ -1,6 +1,21 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>28 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>
+  KidsCare App
+  <ul>
+    <li>created a new base app for kids Care and clone it to github</li>
+    <li>Created and implemented necessary files such as viewmodel, services and navigaitons</li>
+    <li>Added images and icons to the resource liabrary</li>
+    <li>Created a navigation in which selected item is highlighted</li>
+    <li>Created a profile option of images and column of necessary options</li>
+  </ul>
+  </li>
+</ol>
+<hr>
 <h2>25 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
