@@ -1,6 +1,29 @@
 <h1>Daily Updates</h1>
 
 <hr>
+<h2>29 August, 2023</h2>
+<p>Today's Work</p>
+<ol>
+  <li>
+  KidsCare App
+  <ul>
+    <li>created a filp Card option with Annimation in which fron face is image and back face is text</li>
+  </ul>
+    <ul>
+    <li>created a kidCard</li>
+      <ul>
+    <li>Created a new kid card adding option with name, dob, weight, height, boy or girl button with one selection in a bottomsheet</li>
+        <li>get that data into viewmodel</li>
+        <li>implemented a database</li>
+        <li>In database added details of kid</li>
+        <li>upsert all the details of kid</li>
+        <li>get all the detailsof kid to show on home Screen</li>
+        <li>add options to change the color in every card</li>
+  </ul>
+  </ul>
+  </li>
+</ol>
+<hr>
 <h2>28 August, 2023</h2>
 <p>Today's Work</p>
 <ol>
